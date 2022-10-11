@@ -3,3 +3,30 @@
     padding: 0;
     margin: 0;
 }
+/*caracteristicas del logo*/
+.logo{
+    width: 100px;
+}
+/*.opciones se encarga de ul*/
+.opciones{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/*aca se modifica los elementos a dentro de la ul*/
+.opciones a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+.menu-desktop{
+    box-shadow: 0px 6px 27px 0px rgba(255, 147, 6, 0.966);
+}
+/*comportamiento del hover*/
+
+.opciones a:hover{
+    color: red;
+}
