@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
@@ -17,6 +18,7 @@
 }
 /*aca se modifica los elementos a dentro de la ul*/
 .opciones a{
+    font-family: 'Roboto', sans-serif;                  
     color: black;
     text-decoration: none;
     font-size: 20px;
@@ -25,6 +27,10 @@
 .menu-desktop{
     box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.966);
     background-color: rgb(247, 163, 9);
+}
+.menu-peg{
+    position: sticky;
+    top: 0;
 }
 /*comportamiento del hover*/
 
